@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "A spork that is fantastic",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src\\index.ts"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,8 @@
   },
   "homepage": "https://github.com/ChickenChunk579/fantastic-spork#readme",
   "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "discord-music-player": "^8.3.1",
     "discord.js": "^13.6.0",
     "dotenv": "^14.3.2"
   }
